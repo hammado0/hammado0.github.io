@@ -1,0 +1,15 @@
+#Basic content settings
+title: Abdul's Web Space
+email: hammado0@yahoo.com
+biography: ""
+
+quote: ""
+
+logo: ""
+avatar: ""
+
+nav:
+- {name: Blog, url: '#blog'}
+- {name: Poems, url: '#poems'}
+- {name: About Me, url: '#about-me'}
+- {name: Contact, url: '#contact'}
