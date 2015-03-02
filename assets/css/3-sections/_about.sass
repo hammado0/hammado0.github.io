@@ -1,0 +1,44 @@
+h3
+	text-align: center
+
+.profile-lockup
+	display: flex
+	max-width: 600px
+	margin: 0 auto
+	+align-items(center)
+	+justify-content(space-between)
+
+	.profile-face
+		+size(200px)
+		+order(3)
+		margin-right: 10px
+		border: 1px solid black
+		border-radius: 50%
+
+	svg
+		display: block
+		margin: 0 auto
+		margin-top: 25px
+
+	[class^="icon-"]
+		+size(100px)
+		margin: 0 auto
+		margin-right: 10px
+		border: 1px solid black
+		border-radius: 50%
+
+		&.icon-1
+			+order(1)
+		&.icon-2
+			+order(2)
+		&.icon-3
+			+order(4)
+		&.icon-4
+			+order(5)
+
+.blurb
+	max-width: 600px
+	margin: 0 auto
+	margin-top: 25px
+	text-align: center
+	font-size: 18px

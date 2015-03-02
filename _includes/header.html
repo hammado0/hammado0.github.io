@@ -1,0 +1,11 @@
+<header>
+
+	<div class="logo">{% include icons/logo.svg %}</div>
+
+	<nav>
+		{% for item in site.data.settings.nav %}
+			<a href="{{ item.url }}">{{ item.name }}</a>
+		{% endfor %}
+	</nav>
+
+</header>
