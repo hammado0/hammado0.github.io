@@ -331,3 +331,16 @@ h3 {
   margin-top: 25px;
   text-align: center;
   font-size: 18px; }
+
+.page-container {
+  position: relative;
+  max-width: 650px;
+  margin: 0 auto;
+  background-image: url(/assets/img/ruled-lines.png);
+  background-repeat: repeat-y; }
+  .page-container .post-container {
+    position: relative;
+    max-width: 650px;
+    padding: 12px 63px 20px 56px;
+    font-size: 14px;
+    line-height: 22px; }
