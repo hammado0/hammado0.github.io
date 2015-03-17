@@ -13,3 +13,9 @@ nav:
 - {name: Poems, url: '#poems'}
 - {name: About Me, url: '#about-me'}
 - {name: Contact, url: '#contact'}
+
+social:
+- {url: 'https://facebook.com/', icon: facebook}
+- {url: 'https://linkedin.com/', icon: linkedin}
+- {url: 'https://yahoo.com/', icon: yahoo}
+- {url: 'https://steam.com/', icon: steam}

@@ -1,0 +1,10 @@
+<section>
+	<h3 id="contact">Contact</h3>
+	<div class="social-links">
+		{% for link in site.data.settings.social %}
+			<a href="{{ link.url }}">
+				<i class=" fa fa-{{ link.icon }} fa-3x"></i>
+			</a>
+		{% endfor %}
+	</div>
+</section>

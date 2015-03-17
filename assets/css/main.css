@@ -235,8 +235,9 @@ header nav {
   float: right;
   padding: 10px 20px 0 0; }
   header nav a {
-    font-size: 15px;
     display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
     margin-left: 20px; }
 header:after {
   content: "";
@@ -244,7 +245,8 @@ header:after {
   clear: both; }
 
 h3 {
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase; }
 
 .profile-lockup {
   display: flex;
@@ -344,3 +346,21 @@ h3 {
     padding: 12px 63px 20px 56px;
     font-size: 14px;
     line-height: 22px; }
+
+#contact {
+  text-transform: uppercase; }
+
+.social-links {
+  max-width: 700px;
+  margin: 0 auto 50px;
+  margin-top: 40px;
+  text-align: center; }
+  .social-links a {
+    display: inline-block;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    margin: 30px;
+    border: 2px solid #BD5248;
+    border-radius: 50%;
+    line-height: 65px; }
