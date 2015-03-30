@@ -1,0 +1,32 @@
+.section-poems
+	position: relative
+
+.poem-belt
+	width: 100%
+	position: relative
+
+	.poem-unit
+		max-width: 650px
+		margin: 50px auto
+		position: relative
+		text-align: center
+		
+
+		.poem-title
+			font-size: 18px
+			color: #999
+
+		.poem-content
+			position: relative
+			font-size: 14px
+
+.poem-controls
+	+position(absolute, 0px 0px 0px 0px)
+
+	> div
+		cursor: pointer
+	.poem-next
+		+position(absolute, 50% 10px null null)
+
+	.poem-prev
+		+position(absolute, 50% null null 10px)

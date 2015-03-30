@@ -1,11 +1,9 @@
 #Basic content settings
-title: Abdul's Web Space
+title: Abdul Akbarieh
 name: Abdul Akbarieh
 email: hammado0@yahoo.com
 blurb: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at ligula leo. Etiam placerat ac augue in molestie. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin ac varius libero. Integer nec est ac sem ullamcorper vestibulum in ut neque. Morbi a aliquam lorem.</p>"
-quote: ""
 
-logo: ""
 avatar: ""
 
 nav:
@@ -19,3 +17,6 @@ social:
 - {url: 'https://linkedin.com/', icon: linkedin}
 - {url: 'https://yahoo.com/', icon: yahoo}
 - {url: 'https://steam.com/', icon: steam}
+
+poems:
+- {title: The Hunter's Lust, file: 'poems/poem-1.html'}

@@ -1,0 +1,18 @@
+<section class="section-poems">
+	<h3 id="poems">Poems</h3>
+
+	<div class="poem-belt">
+		{% for poem in site.data.settings.poems %}
+		<div class="poem-unit">
+			<em class="poem-title"> {{ poem.title }}</em>
+
+			<div class="poem-content">{% include {{ poem.file }} %}</div>
+		</div>
+		{% endfor %}
+	</div>
+
+	<div class="poem-controls">
+		<div class="poem-next"><i class="fa fa-angle-right fa-4x"></i></div>
+		<div class="poem-prev"><i class="fa fa-angle-left fa-4x"></i></div>
+	</div>
+</section>
