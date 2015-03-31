@@ -218,13 +218,21 @@ body {
   -webkit-tap-highlight-color: #FFF498; }
 
 body {
-  background: #F6F6F8;
+  background: #FFFFFF;
   font-size: 14px;
   line-height: 1.6;
   font-family: "Open Sans", sans-serif;
   color: #666666;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
+
+h3 {
+  text-align: center;
+  padding: 100px 0 30px; }
+
+.alt-section {
+  background-color: #e5eaee;
+  padding-bottom: 100px; }
 
 header {
   background-image: url(/assets/img/background3.jpg);
@@ -254,7 +262,6 @@ header {
       border: 10px solid #ffffff; }
 
 h3 {
-  text-align: center;
   text-transform: uppercase; }
 
 .profile-lockup {
