@@ -3,7 +3,7 @@
 
 	<div class="poem-belt">
 		{% for poem in site.data.settings.poems %}
-		<div class="poem-unit">
+		<div class="poem-unit {% if forloop.first %}active-poem{% endif %}">
 			<em class="poem-title"> {{ poem.title }}</em>
 
 			<div class="poem-content">{% include {{ poem.file }} %}</div>
@@ -14,5 +14,15 @@
 	<div class="poem-controls">
 		<div class="poem-next"><i class="fa fa-angle-right fa-4x"></i></div>
 		<div class="poem-prev"><i class="fa fa-angle-left fa-4x"></i></div>
+	</div>
+
+	<div class="poem-nav-mobile">
+		{%for poem in site.data.settings.poems %}
+			{% if forloop.first %}
+				<span class="active-poem"></span>
+			{% else %}
+				<span></span>
+			{% endif %}
+		{% endfor %}
 	</div>
 </section>

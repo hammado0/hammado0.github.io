@@ -10,7 +10,11 @@
 		margin: 50px auto
 		position: relative
 		text-align: center
-		
+		display: none
+
+		&.active-poem
+			display: flex
+			flex-direction: column
 
 		.poem-title
 			font-size: 18px
@@ -30,3 +34,18 @@
 
 	.poem-prev
 		+position(absolute, 50% null null 10px)
+
+.poem-nav-mobile
+	position: relative
+	text-align: center
+
+	span
+		+size(15px)
+		display: inline-block
+		border-radius: 50%
+		border: 2px solid #e5eaee
+		cursor: pointer
+
+		&.active-client
+			border-color: green
+

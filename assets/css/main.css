@@ -262,7 +262,8 @@ header {
       border: 10px solid #ffffff; }
 
 h3 {
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin: 0; }
 
 .profile-lockup {
   display: flex;
@@ -373,7 +374,11 @@ h3 {
     max-width: 650px;
     margin: 50px auto;
     position: relative;
-    text-align: center; }
+    text-align: center;
+    display: none; }
+    .poem-belt .poem-unit.active-poem {
+      display: flex;
+      flex-direction: column; }
     .poem-belt .poem-unit .poem-title {
       font-size: 18px;
       color: #999; }
@@ -397,6 +402,19 @@ h3 {
     position: absolute;
     top: 50%;
     left: 10px; }
+
+.poem-nav-mobile {
+  position: relative;
+  text-align: center; }
+  .poem-nav-mobile span {
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #e5eaee;
+    cursor: pointer; }
+    .poem-nav-mobile span.active-client {
+      border-color: green; }
 
 #contact {
   text-transform: uppercase; }

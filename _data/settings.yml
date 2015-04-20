@@ -20,3 +20,6 @@ social:
 
 poems:
 - {title: The Hunter's Lust, file: 'poems/poem-1.html'}
+- {title: A Soldier against the odds, file: 'poems/poem-2.html'}
+- {title: Life's Beauty, file: 'poems/poem-3.html'}
+- {title: Into the Rabbit Hole, file: 'poems/poem-4.html'}
