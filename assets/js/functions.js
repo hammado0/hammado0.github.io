@@ -21,7 +21,7 @@ function smoothScroll(duration){
 
 function poemControls(){
 
-	$('.poem-nav-mobile').click(function(){
+	$('.poem-nav-mobile span').click(function(){
 		var $this = $(this);
 		var $siblings = $this.parent().children();
 		var index = $siblings.index($this);

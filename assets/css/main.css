@@ -375,7 +375,8 @@ h3 {
     margin: 50px auto;
     position: relative;
     text-align: center;
-    display: none; }
+    display: none;
+    z-index: 1; }
     .poem-belt .poem-unit.active-poem {
       display: flex;
       flex-direction: column; }
@@ -405,17 +406,34 @@ h3 {
 
 .poem-nav-mobile {
   position: relative;
-  text-align: center; }
+  text-align: center;
+  z-index: 2; }
   .poem-nav-mobile span {
     height: 15px;
     width: 15px;
+    margin: 0px 15px;
     display: inline-block;
     border-radius: 50%;
     border: 2px solid #e5eaee;
     cursor: pointer; }
-    .poem-nav-mobile span.active-client {
+    .poem-nav-mobile span.active-poem {
       border-color: green; }
 
+@media (max-width: 750px) {
+  .poem-belt {
+    overflow-x: hidden; }
+    .poem-belt .poem-unit .active-poem {
+      display: block;
+      position: relative; }
+      .poem-belt .poem-unit .active-poem .poem-content {
+        max-width: 500px;
+        margin: 0 auto; }
+
+  .poem-nav-mobile {
+    display: block; }
+
+  .poem-controls {
+    display: none; } }
 #contact {
   text-transform: uppercase; }
 

@@ -11,6 +11,7 @@
 		position: relative
 		text-align: center
 		display: none
+		z-index: 1
 
 		&.active-poem
 			display: flex
@@ -38,14 +39,34 @@
 .poem-nav-mobile
 	position: relative
 	text-align: center
+	z-index: 2
 
 	span
 		+size(15px)
+		margin: 0px 15px
 		display: inline-block
 		border-radius: 50%
 		border: 2px solid #e5eaee
 		cursor: pointer
 
-		&.active-client
+		&.active-poem
 			border-color: green
 
+@media (max-width: 750px)
+	
+	.poem-belt
+		overflow-x: hidden
+
+		.poem-unit .active-poem
+			display: block
+			position: relative
+
+			.poem-content
+				max-width: 500px
+				margin: 0 auto
+
+	.poem-nav-mobile
+		display: block
+
+	.poem-controls
+		display: none
