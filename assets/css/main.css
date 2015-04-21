@@ -351,6 +351,15 @@ h3 {
   text-align: center;
   font-size: 18px; }
 
+@media (max-width: 650px) {
+  .profile-lockup {
+    display: block;
+    text-align: center; }
+    .profile-lockup .profile-face {
+      display: block;
+      margin: 0 auto; }
+    .profile-lockup div {
+      display: inline-block; } }
 .page-container {
   position: relative;
   max-width: 650px;
