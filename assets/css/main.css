@@ -261,6 +261,15 @@ header {
       padding: 20px;
       border: 10px solid #ffffff; }
 
+@media (max-width: 650px) {
+  header {
+    background-position: 50% 50%; }
+
+  nav {
+    text-align: center; }
+
+  h1 {
+    padding-top: 0; } }
 h3 {
   text-transform: uppercase;
   margin: 0; }
@@ -359,7 +368,9 @@ h3 {
       display: block;
       margin: 0 auto; }
     .profile-lockup div {
-      display: inline-block; } }
+      display: inline-block; }
+    .profile-lockup [class^="icon-"] {
+      margin: 10px 9%; } }
 .page-container {
   position: relative;
   max-width: 650px;
@@ -415,6 +426,7 @@ h3 {
 
 .poem-nav-mobile {
   position: relative;
+  margin-bottom: 20px;
   text-align: center;
   z-index: 2; }
   .poem-nav-mobile span {
@@ -434,8 +446,11 @@ h3 {
     .poem-belt .poem-unit .active-poem {
       display: block;
       position: relative; }
+      .poem-belt .poem-unit .active-poem .poem-title {
+        font-size: 14px; }
       .poem-belt .poem-unit .active-poem .poem-content {
         max-width: 500px;
+        font-size: 7px;
         margin: 0 auto; }
 
   .poem-nav-mobile {
