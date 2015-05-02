@@ -4,6 +4,7 @@ $( document ).ready(function() {
   smoothScroll(300);
   poemControls();
   jQuery("header h1").fitText(1, { minFontSize: '25px', maxFontSize: '72px' });
+  //jQuery(".poem-unit .poem-content").fitText(1, { minFontSize: '7px', maxFontSize: '14px' });
 });
 
 function smoothScroll(duration){
