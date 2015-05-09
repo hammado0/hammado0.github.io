@@ -195,12 +195,12 @@ hr {
   height: 0; }
 
 a {
-  color: #333333;
+  color: #FFFFFF;
   text-decoration: none;
   outline: 0; }
 
 a:hover, a:focus {
-  color: #666666; }
+  color: white; }
 
 ::selection {
   background: #FFF498; }
@@ -247,8 +247,7 @@ header {
       display: inline-block;
       font-size: 15px;
       text-transform: uppercase;
-      margin-left: 20px;
-      color: #ffffff; }
+      margin-left: 20px; }
   header h1 {
     margin: 0;
     text-align: center;
@@ -258,7 +257,7 @@ header {
     color: #ffffff; }
     header h1 span {
       display: inline-block;
-      padding: 20px;
+      padding: 0.2em 0.5em;
       border: 10px solid #ffffff; }
 
 @media (max-width: 650px) {
@@ -306,6 +305,7 @@ h3 {
     -moz-order: 3;
     order: 3;
     -ms-flex-order: 3;
+    background-image: url(/assets/img/face.jpg);
     margin-right: 20px;
     border: 1px solid black;
     border-radius: 50%; }
@@ -472,7 +472,8 @@ h3 {
     margin: 30px;
     border: 2px solid #333333;
     border-radius: 50%;
-    line-height: 65px; }
+    line-height: 65px;
+    color: #333333; }
 
 footer {
   background-image: url(/assets/img/background3.jpg);
@@ -488,8 +489,7 @@ footer {
       display: inline-block;
       font-size: 15px;
       text-transform: uppercase;
-      margin-left: 20px;
-      color: #ffffff; }
+      margin-left: 20px; }
     footer .content-wrap .copyright {
       text-align: center;
       margin-top: 10px;
@@ -499,7 +499,8 @@ footer {
 
 form {
   max-width: 450px;
-  margin: 0 auto 50px; }
+  margin: 0 auto 100px;
+  padding: 0 20px; }
   form input, form textarea {
     border: 3px solid black;
     width: 100%;
@@ -510,7 +511,7 @@ form {
     form input:focus, form textarea:focus {
       outline: none;
       border-color: #333333; }
-  form text-area {
+  form textarea {
     height: 10em; }
   form .submit-wrap {
     text-align: right; }
