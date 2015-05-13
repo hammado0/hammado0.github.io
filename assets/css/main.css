@@ -253,7 +253,7 @@ header {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    padding: 100px;
+    padding: 100px 0;
     color: #ffffff; }
     header h1 span {
       display: inline-block;
@@ -358,7 +358,7 @@ h3 {
   margin: 0 auto;
   margin-top: 25px;
   text-align: center;
-  font-size: 18px; }
+  font-size: 24px; }
 
 @media (max-width: 650px) {
   .profile-lockup {
